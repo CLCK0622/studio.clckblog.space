@@ -1,0 +1,95 @@
+
+html, body {
+    overflow-x: hidden;
+}
+
+.no-line {
+    text-decoration: none;
+    color: rgb(0 0 0 / 50%);
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url("../fonts/Kanit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url("../fonts/SignikaNegative-Regular.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+div, p {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/*header*/
+.header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+.header .title-href {
+    text-decoration: none;
+    color: black;
+}
+.header h1 {
+    float: left;
+    margin-top: 0;
+    margin-left: 100px;
+}
+.header .list {
+    float: right;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+}
+.list li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+.list li:first-of-type {
+    margin-left: 0px;
+}
+
+/*Main Title*/
+.main-title {
+    font-size: 100px;
+    position: absolute;
+    width: 100%;
+    top: calc(20% - 25px);
+    text-align: center;
+}
+
+/*Info*/
+.info-title {
+    font-size: 80px;
+    position: absolute;
+    width: 100%;
+    top: calc(20% - 25px);
+    text-align: center;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    height: 30px;
+    backdrop-filter: blur(10px);
+    background: rgb(0 0 0 / 10%);
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*icon*/
+.main-icon {
+    width: 50%;
+}
